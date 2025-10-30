@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>5C7BF2D04A5D67FBBA006DB722251503</ExecutionGuid>
+		<CrashGUID>UECC-Windows-E2B42E654FCD192621F97FB318B81510_0000</CrashGUID>
+		<IsEnsure>false</IsEnsure>
+		<IsStall>false</IsStall>
+		<IsAssert>false</IsAssert>
+		<CrashType>Crash</CrashType>
+		<ErrorMessage>Unhandled Exception: EXCEPTION_ACCESS_VIOLATION 0x00007fffa6200001</ErrorMessage>
+		<CrashReporterMessage />
+		<AttendedStatus>Attended</AttendedStatus>
+		<ProcessId>10344</ProcessId>
+		<SecondsSinceStart>0</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsWithDebugInfo>true</IsWithDebugInfo>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE-PioneerGame</GameName>
+		<ExecutableName>PioneerGame</ExecutableName>
+		<BuildConfiguration>Shipping</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>WindowsClient</PlatformName>
+		<PlatformFullName>Win64 [Windows 10 (22H2) [10.0.19045.6332]  64b]</PlatformFullName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Game</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>5.3.2-961568+pioneer_1.0.x</EngineVersion>
+		<EngineCompatibleVersion>5.3.2-961568+pioneer_1.0.x</EngineCompatibleVersion>
+		<CommandLine>-dx11 -Culture=ru -BOOTARGS=@d41q15a1kc32h71pv84g</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>ru-RU</AppDefaultLocale>
+		<BuildVersion>pioneer_1.0.x-CL-961568</BuildVersion>
+		<Symbols>pioneer_1.0.x-CL-961568-Win64-Shipping</Symbols>
+		<IsUERelease>true</IsUERelease>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>E:/SteamLibrary/steamapps/common/Arc Raiders/PioneerGame/Binaries/Win64/</BaseDir>
+		<RootDir>E:/SteamLibrary/steamapps/common/Arc Raiders/</RootDir>
+		<MachineId>5AE029CE4C2E5C74BC47ADBCD7A395A2</MachineId>
+		<LoginId>5ae029ce4c2e5c74bc47adbcd7a395a2</LoginId>
+		<EpicAccountId>3a96ad83f5f1431b8450cb731126853b</EpicAccountId>
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>8</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i7-9700KF CPU @ 3.60GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce RTX 2070 SUPER</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10 (22H2) [10.0.19045.6332]</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>34293977088</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>36441460736</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+		<CallStack>runtime_7fffa6200000
+kernel32
+ntdll</CallStack>
+		<GPUBreadCrumbs>GPUCRASH_NONE</GPUBreadCrumbs>
+		<PCallStackFull>ntdll 0x00007fffa5f90000 + 270001 KERNEL32 0x00007fffa5dd0000 + 17374</PCallStackFull>
+		<PCallStack>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</PCallStack>
+		<Threads>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9ee04 KERNELBASE 0x00007fffa3890000 + 43845 KERNELBASE 0x00007fffa3890000 + 408c6 KERNEL32 0x00007fffa5dd0000 + 1cef4 GameOverlayRenderer64 0x00007fff5e760000 + ac590 _nvngx 0x00007fff31fd0000 + 3e5cc _nvngx 0x00007fff31fd0000 + 3ea7b _nvngx 0x00007fff31fd0000 + 40fc1 _nvngx 0x00007fff31fd0000 + 41949 _nvngx 0x00007fff31fd0000 + 61377 _nvngx 0x00007fff31fd0000 + 615cc _nvngx 0x00007fff31fd0000 + 6276b sl.common 0x00007fff5ef10000 + 6ac59 sl.common 0x00007fff5ef10000 + 2361e sl.dlss_g 0x00007fff632e0000 + 257c1 sl.dlss_g 0x00007fff632e0000 + 2545d sl.interposer 0x00007fff5f3a0000 + 48d5f sl.interposer 0x00007fff5f3a0000 + 4a26a sl.interposer 0x00007fff5f3a0000 + 4cb32 sl.interposer 0x00007fff5f3a0000 + 6e14 sl.interposer 0x00007fff5f3a0000 + 6a92 PioneerGame 0x00007ff7cc580000 + 59e2f99 PioneerGame 0x00007ff7cc580000 + 59e8f15 PioneerGame 0x00007ff7cc580000 + 20614e PioneerGame 0x00007ff7cc580000 + 1f5004 PioneerGame 0x00007ff7cc580000 + 59e07aa PioneerGame 0x00007ff7cc580000 + 59e163e PioneerGame 0x00007ff7cc580000 + 20614e PioneerGame 0x00007ff7cc580000 + 2b940a PioneerGame 0x00007ff7cc580000 + 291611 PioneerGame 0x00007ff7cc580000 + 28cdcc PioneerGame 0x00007ff7cc580000 + 3db327e PioneerGame 0x00007ff7cc580000 + 3db5fed PioneerGame 0x00007ff7cc580000 + 3db3e5e PioneerGame 0x00007ff7cc580000 + 3db675e PioneerGame 0x00007ff7cc580000 + 3da7c38 PioneerGame 0x00007ff7cc580000 + 3da7eea PioneerGame 0x00007ff7cc580000 + 3da7a03 PioneerGame 0x00007ff7cc580000 + a9630be KERNEL32 0x00007fffa5dd0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1200</ThreadID>
+				<ThreadName>GameThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + 16e76e1 PioneerGame 0x00007ff7cc580000 + 24ed45</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8256</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + 16e76e1 PioneerGame 0x00007ff7cc580000 + 24ed45</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10504</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + 16e76e1 PioneerGame 0x00007ff7cc580000 + 24ed45</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13444</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + 16e76e1 PioneerGame 0x00007ff7cc580000 + 24ed45</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1744</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + 16e76e1 PioneerGame 0x00007ff7cc580000 + 24ed45</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12764</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + 16e76e1 PioneerGame 0x00007ff7cc580000 + 24ed45</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11440</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + 16e76e1 PioneerGame 0x00007ff7cc580000 + 24ed45</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7696</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + 16e76e1 PioneerGame 0x00007ff7cc580000 + 24ed45</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1208</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + 16e76e1 PioneerGame 0x00007ff7cc580000 + 24ed45</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3280</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + 16e76e1 PioneerGame 0x00007ff7cc580000 + 24ed45</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4520</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + 16e76e1 PioneerGame 0x00007ff7cc580000 + 24ed45</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10564</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + 16e76e1 PioneerGame 0x00007ff7cc580000 + 24ed45</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13220</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + 16e76e1 PioneerGame 0x00007ff7cc580000 + 24ed45</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11540</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + 16e76e1 PioneerGame 0x00007ff7cc580000 + 24ed45</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5148</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + 16e76e1 PioneerGame 0x00007ff7cc580000 + 24ed45</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4824</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + 16e76e1 PioneerGame 0x00007ff7cc580000 + 24ed45</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11604</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + 16e76e1 PioneerGame 0x00007ff7cc580000 + 24ed45</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11328</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + 16e76e1 PioneerGame 0x00007ff7cc580000 + 24ed45</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11696</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + 16e76e1 PioneerGame 0x00007ff7cc580000 + 24ed45</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>76</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + 16e76e1 PioneerGame 0x00007ff7cc580000 + 24ed45</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5692</ThreadID>
+				<ThreadName>FChunkCacheWorker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + 50860 PioneerGame 0x00007ff7cc580000 + 482a8 PioneerGame 0x00007ff7cc580000 + 37d85 PioneerGame 0x00007ff7cc580000 + d8e63 PioneerGame 0x00007ff7cc580000 + 24ed45 PioneerGame 0x00007ff7cc580000 + 2542b6 KERNEL32 0x00007fffa5dd0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>796</ThreadID>
+				<ThreadName>Foreground Worker #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + 50860 PioneerGame 0x00007ff7cc580000 + 482a8 PioneerGame 0x00007ff7cc580000 + 37d85 PioneerGame 0x00007ff7cc580000 + d8e63 PioneerGame 0x00007ff7cc580000 + 24ed45 PioneerGame 0x00007ff7cc580000 + 2542b6 KERNEL32 0x00007fffa5dd0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10460</ThreadID>
+				<ThreadName>Foreground Worker #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + 50860 PioneerGame 0x00007ff7cc580000 + 482a8 PioneerGame 0x00007ff7cc580000 + 37d85 PioneerGame 0x00007ff7cc580000 + d8e63 PioneerGame 0x00007ff7cc580000 + 24ed45 PioneerGame 0x00007ff7cc580000 + 2542b6 KERNEL32 0x00007fffa5dd0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13364</ThreadID>
+				<ThreadName>Foreground Worker #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + 50860 PioneerGame 0x00007ff7cc580000 + 482a8 PioneerGame 0x00007ff7cc580000 + 37d85 PioneerGame 0x00007ff7cc580000 + d8e63 PioneerGame 0x00007ff7cc580000 + 24ed45 PioneerGame 0x00007ff7cc580000 + 2542b6 KERNEL32 0x00007fffa5dd0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4656</ThreadID>
+				<ThreadName>Foreground Worker #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + 50860 PioneerGame 0x00007ff7cc580000 + 482a8 PioneerGame 0x00007ff7cc580000 + 37d85 PioneerGame 0x00007ff7cc580000 + d8e63 PioneerGame 0x00007ff7cc580000 + 24ed45 PioneerGame 0x00007ff7cc580000 + 2542b6 KERNEL32 0x00007fffa5dd0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>852</ThreadID>
+				<ThreadName>Background Worker #4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + 50860 PioneerGame 0x00007ff7cc580000 + 482a8 PioneerGame 0x00007ff7cc580000 + 37d85 PioneerGame 0x00007ff7cc580000 + d8e63 PioneerGame 0x00007ff7cc580000 + 24ed45 PioneerGame 0x00007ff7cc580000 + 2542b6 KERNEL32 0x00007fffa5dd0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6228</ThreadID>
+				<ThreadName>Background Worker #5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + 50860 PioneerGame 0x00007ff7cc580000 + 482a8 PioneerGame 0x00007ff7cc580000 + 37d85 PioneerGame 0x00007ff7cc580000 + d8e63 PioneerGame 0x00007ff7cc580000 + 24ed45 PioneerGame 0x00007ff7cc580000 + 2542b6 KERNEL32 0x00007fffa5dd0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10640</ThreadID>
+				<ThreadName>Background Worker #6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + c05ee PioneerGame 0x00007ff7cc580000 + 24ed45 PioneerGame 0x00007ff7cc580000 + 2542b6 KERNEL32 0x00007fffa5dd0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7964</ThreadID>
+				<ThreadName>BackgroundThreadPool #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + c05ee PioneerGame 0x00007ff7cc580000 + 24ed45 PioneerGame 0x00007ff7cc580000 + 2542b6 KERNEL32 0x00007fffa5dd0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2656</ThreadID>
+				<ThreadName>BackgroundThreadPool #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + c05ee PioneerGame 0x00007ff7cc580000 + 24ed45 PioneerGame 0x00007ff7cc580000 + 2542b6 KERNEL32 0x00007fffa5dd0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3320</ThreadID>
+				<ThreadName>BackgroundThreadPool #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + c05ee PioneerGame 0x00007ff7cc580000 + 24ed45 PioneerGame 0x00007ff7cc580000 + 2542b6 KERNEL32 0x00007fffa5dd0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13096</ThreadID>
+				<ThreadName>SoftRealtimeThreadPool #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + c05ee PioneerGame 0x00007ff7cc580000 + 24ed45 PioneerGame 0x00007ff7cc580000 + 2542b6 KERNEL32 0x00007fffa5dd0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11704</ThreadID>
+				<ThreadName>SoftRealtimeThreadPool #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + c05ee PioneerGame 0x00007ff7cc580000 + 24ed45 PioneerGame 0x00007ff7cc580000 + 2542b6 KERNEL32 0x00007fffa5dd0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7200</ThreadID>
+				<ThreadName>AntiCheat #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + 2b5d01e PioneerGame 0x00007ff7cc580000 + 24ed45</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13144</ThreadID>
+				<ThreadName>FMediaTicker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9db74 KERNELBASE 0x00007fffa3890000 + 462ce PioneerGame 0x00007ff7cc580000 + a38ff4 PioneerGame 0x00007ff7cc580000 + 24ed45 PioneerGame 0x00007ff7cc580000 + 2542b6 KERNEL32 0x00007fffa5dd0000 + 17374 PioneerGame 0x00007ff7cc580000 + 14d31</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4632</ThreadID>
+				<ThreadName>HttpManagerThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + 4300552 PioneerGame 0x00007ff7cc580000 + 24ed45</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13356</ThreadID>
+				<ThreadName>OnlineAsyncTaskThreadSteam DefaultInstance</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + a0f24 ntdll 0x00007fffa5f90000 + 64d6d ntdll 0x00007fffa5f90000 + 64c22 ntdll 0x00007fffa5f90000 + 64933 KERNELBASE 0x00007fffa3890000 + 6ee2f PioneerGame 0x00007ff7cc580000 + 19d4e7 PioneerGame 0x00007ff7cc580000 + 3d7d4 PioneerGame 0x00007ff7cc580000 + 4161c PioneerGame 0x00007ff7cc580000 + 208a36 PioneerGame 0x00007ff7cc580000 + d8e63 PioneerGame 0x00007ff7cc580000 + 24ed45 PioneerGame 0x00007ff7cc580000 + 2542b6 KERNEL32 0x00007fffa5dd0000 + 17374 PioneerGame 0x00007ff7cc580000 + 14d31</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4992</ThreadID>
+				<ThreadName>OutputDeviceRedirector</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + c05ee PioneerGame 0x00007ff7cc580000 + 24ed45 PioneerGame 0x00007ff7cc580000 + 2542b6 KERNEL32 0x00007fffa5dd0000 + 17374 PioneerGame 0x00007ff7cc580000 + 14d31</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11628</ThreadID>
+				<ThreadName>IOThreadPool #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + c05ee PioneerGame 0x00007ff7cc580000 + 24ed45 PioneerGame 0x00007ff7cc580000 + 2542b6 KERNEL32 0x00007fffa5dd0000 + 17374 PioneerGame 0x00007ff7cc580000 + 14d31</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11416</ThreadID>
+				<ThreadName>IOThreadPool #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + c05ee PioneerGame 0x00007ff7cc580000 + 24ed45 PioneerGame 0x00007ff7cc580000 + 2542b6 KERNEL32 0x00007fffa5dd0000 + 17374 PioneerGame 0x00007ff7cc580000 + 14d31</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11956</ThreadID>
+				<ThreadName>IOThreadPool #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + c05ee PioneerGame 0x00007ff7cc580000 + 24ed45 PioneerGame 0x00007ff7cc580000 + 2542b6 KERNEL32 0x00007fffa5dd0000 + 17374 PioneerGame 0x00007ff7cc580000 + 14d31</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3484</ThreadID>
+				<ThreadName>IOThreadPool #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + 17193ff PioneerGame 0x00007ff7cc580000 + 24ed45</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5980</ThreadID>
+				<ThreadName>IoService</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + 11cca5 PioneerGame 0x00007ff7cc580000 + 24ed45</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2020</ThreadID>
+				<ThreadName>IoDispatcher</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9d574 KERNELBASE 0x00007fffa3890000 + 1b6ae PioneerGame 0x00007ff7cc580000 + 263ceb PioneerGame 0x00007ff7cc580000 + 488af PioneerGame 0x00007ff7cc580000 + 57ffd PioneerGame 0x00007ff7cc580000 + 2360442 PioneerGame 0x00007ff7cc580000 + 2372fd8 PioneerGame 0x00007ff7cc580000 + 24ed45 PioneerGame 0x00007ff7cc580000 + 2542b6 KERNEL32 0x00007fffa5dd0000 + 17374 PioneerGame 0x00007ff7cc580000 + 14d31</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8116</ThreadID>
+				<ThreadName>RenderThread 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9db74 KERNELBASE 0x00007fffa3890000 + 462ce PioneerGame 0x00007ff7cc580000 + 258776 PioneerGame 0x00007ff7cc580000 + 236d317 PioneerGame 0x00007ff7cc580000 + 24ed45</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9224</ThreadID>
+				<ThreadName>RTHeartBeat 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fffa5f90000 + 9db74 KERNELBASE 0x00007fffa3890000 + 462ce PioneerGame 0x00007ff7cc580000 + ae858 PioneerGame 0x00007ff7cc580000 + 24ed45 PioneerGame 0x00007ff7cc580000 + 2542b6 KERNEL32 0x00007fffa5dd0000 + 17374 PioneerGame 0x00007ff7cc580000 + 14d31</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10792</ThreadID>
+				<ThreadName>FHeartBeatThread</ThreadName>
+			</Thread>
+		</Threads>
+		<TimeOfCrash>638974422354500000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<CPUBrand>Intel(R) Core(TM) i7-9700KF CPU @ 3.60GHz</CPUBrand>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules>E:\SteamLibrary\steamapps\common\Arc Raiders\PioneerGame\Binaries\Win64\runtime.dll
+E:\SteamLibrary\steamapps\common\Arc Raiders\PioneerGame\Binaries\Win64\PioneerGame.exe
+E:\SteamLibrary\steamapps\common\Arc Raiders\Engine\Plugins\Runtime\Nvidia\StreamlineCore\Binaries\ThirdParty\Win64\nvngx_dlssg.dll
+E:\SteamLibrary\steamapps\common\Arc Raiders\Engine\Binaries\Win64\EOSSDK-Win64-Shipping.dll
+E:\SteamLibrary\steamapps\common\Arc Raiders\PioneerGame\Binaries\Win64\amd_fidelityfx_dx12.dll
+E:\SteamLibrary\steamapps\common\Arc Raiders\Engine\Binaries\ThirdParty\NVIDIA\NVaftermath\Win64\GFSDK_Aftermath_Lib.x64.dll
+E:\SteamLibrary\steamapps\common\Arc Raiders\Engine\Plugins\Runtime\Nvidia\StreamlineCore\Binaries\ThirdParty\Win64\nvngx_deepdvc.dll
+E:\SteamLibrary\steamapps\common\Arc Raiders\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\PhysX3_x64.dll
+E:\SteamLibrary\steamapps\common\Arc Raiders\Engine\Binaries\ThirdParty\DbgHelp\dbghelp.dll
+E:\SteamLibrary\steamapps\common\Arc Raiders\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\PhysX3Common_x64.dll
+E:\SteamLibrary\steamapps\common\Arc Raiders\Engine\Plugins\Runtime\Nvidia\StreamlineCore\Binaries\ThirdParty\Win64\sl.common.dll
+E:\SteamLibrary\steamapps\common\Arc Raiders\Engine\Plugins\Runtime\Nvidia\StreamlineCore\Binaries\ThirdParty\Win64\sl.interposer.dll
+E:\SteamLibrary\steamapps\common\Arc Raiders\Engine\Plugins\Runtime\Nvidia\StreamlineCore\Binaries\ThirdParty\Win64\sl.reflex.dll
+E:\SteamLibrary\steamapps\common\Arc Raiders\Engine\Binaries\ThirdParty\Steamworks\Steamv153\Win64\steam_api64.dll
+E:\SteamLibrary\steamapps\common\Arc Raiders\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\PxPvdSDK_x64.dll
+E:\SteamLibrary\steamapps\common\Arc Raiders\Engine\Plugins\Runtime\Nvidia\StreamlineCore\Binaries\ThirdParty\Win64\sl.pcl.dll
+E:\SteamLibrary\steamapps\common\Arc Raiders\Engine\Binaries\ThirdParty\PhysX\Win64\VS2015\PxFoundation_x64.dll
+E:\SteamLibrary\steamapps\common\Arc Raiders\PioneerGame\Binaries\Win64\preloader.dll
+E:\SteamLibrary\steamapps\common\Arc Raiders\PioneerGame\Binaries\Win64\runtime.dll</Modules>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<IsRunningOnBattery>false</IsRunningOnBattery>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+		<CrashTrigger>0</CrashTrigger>
+	</PlatformProperties>
+	<EngineData>
+		<MatchingDPStatus>WindowsClientNo errors</MatchingDPStatus>
+		<RHI.IntegratedGPU>false</RHI.IntegratedGPU>
+		<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+		<RHI.D3DDebug>false</RHI.D3DDebug>
+		<RHI.Aftermath>true</RHI.Aftermath>
+		<RHI.IsGPUOverclocked>false</RHI.IsGPUOverclocked>
+		<RHI.RHIName>D3D11</RHI.RHIName>
+		<RHI.AdapterName>NVIDIA GeForce RTX 2070 SUPER</RHI.AdapterName>
+		<RHI.UserDriverVersion>581.57</RHI.UserDriverVersion>
+		<RHI.InternalDriverVersion>32.0.15.8157</RHI.InternalDriverVersion>
+		<RHI.DriverDate>10-9-2025</RHI.DriverDate>
+		<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+		<RHI.GPUVendor>NVIDIA</RHI.GPUVendor>
+		<RHI.DeviceId>1E84</RHI.DeviceId>
+	</EngineData>
+	<GameData>
+		<__sentry>{&quot;release&quot;:&quot;CL961568-DAB9D31D-BK2816&quot;,&quot;environment&quot;:&quot;Shipping&quot;,&quot;user&quot;:{&quot;ip_address&quot;:&quot;&quot;,&quot;email&quot;:&quot;&quot;},&quot;tags&quot;:{&quot;unreal.platform&quot;:&quot;Windows&quot;,&quot;unreal.target&quot;:&quot;Client&quot;,&quot;unreal.executable&quot;:&quot;PioneerGame&quot;,&quot;unreal.project&quot;:&quot;PioneerGame&quot;,&quot;unreal.callstackhash&quot;:&quot;DA39A3EE5E6B4B0D3255BFEF95601890AFD80709&quot;,&quot;unreal.crashguid&quot;:&quot;UECC-Windows-E2B42E654FCD192621F97FB318B81510_0000&quot;,&quot;unreal.buildid&quot;:&quot;CL961568-DAB9D31D-BK2816&quot;,&quot;GPUBreadCrumb&quot;:&quot;GPUCRASH_NONE&quot;,&quot;cpu.name&quot;:&quot;Intel(R) Core(TM) i7-9700KF CPU @ 3.60GHz&quot;,&quot;memory.totalphysical&quot;:&quot;32&quot;,&quot;login_id&quot;:&quot;5ae029ce4c2e5c74bc47adbcd7a395a2&quot;,&quot;IsCompilingPSOs&quot;:&quot;False&quot;,&quot;memory.IsOOM&quot;:&quot;False&quot;,&quot;IsRequestingExit&quot;:&quot;False&quot;,&quot;memory.PeakUsedPhysical&quot;:&quot;1.23&quot;,&quot;memory.AvailablePhysical&quot;:&quot;21.72&quot;},&quot;breadcrumbs&quot;:[]}</__sentry>
+	</GameData>
+</FGenericCrashContext>
